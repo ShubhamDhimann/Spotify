@@ -5,7 +5,7 @@ let currentSongIndex = songs.indexOf(currentSong.src)
 
 // To get song links
 const getsongs = async () => {
-    let a = await fetch("/Gaane/")         // fetching songs
+    let a = await fetch("Gaane/")         // fetching songs
     let response = await a.text()                               // parsing to become text
     // console.log(response);
     let div = document.createElement("div")                     // creating an element to store text data
