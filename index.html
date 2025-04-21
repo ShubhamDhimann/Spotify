@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player Music for Everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="favicon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navWrapper flex">
+        <div class="logo-wrapper">
+            <img src="svgs/hamburger.svg" alt="" class="hamburger toggleLeft">
+            <img src="/svgs/logo.svg" alt="" class="logo">
+        </div>
+        <div class="searchBar"></div>
+        <div class="Login">
+            <span class="signup">Sign up</span>
+            <span class="login">Log in</span>
+        </div>
+    </nav>
+
+    <div class="mainContWrapper flex">
+        <div class="left">
+            <div>
+                <div class="LiabraryWrapper flex">
+                    <div class="left-LiabraryWrapper flex">
+                        <img src="svgs/playlist.svg" alt="Playlist">
+                        <div class="YourLiabrary">Your Liabrary</div>
+                    </div>
+                    <div class="right-LiabraryWrapper flex">
+                        <img class="playlist-add-btn" src="/svgs/add.svg" alt="">
+                        <img class="expand-btn" src="/svgs/right-arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="playlist-capsule">Playlists</div>
+            </div>
+
+            <div class="left-bottom">
+                <div class="left-bottom-links">
+                    <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+                    <a href="https://www.spotify.com/in-en/safetyandprivacy/">Safety & Privacy</a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+                    <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+                    <a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a>
+                </div>
+
+                <div class="cookies">
+                    <a href="https://www.spotify.com/legal/cookies-policy/">Cookies</a>
+                </div>
+
+                <a class="internet_svg flex">
+                    <img src="svgs/internet.svg" height="15px" alt="">
+                    <span>English</span>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="right">
+            <h1>Spotify Songs for You</h1>
+            <div class="cards flex">
+            </div>
+        </div>
+    </div>
+
+    <div class="playbar flex">
+        <div class="seekbar2">
+            <div class="bar2">
+                <div class="circle2"></div>
+            </div>
+        </div>
+        <div class="song-info-box flex">
+            <img src="" class="playbar-songCover" alt="">
+            <div class="song-title&desc">
+                <p class="song-title"></p>
+                <p class="song-desc"></p>
+            </div>
+        </div>
+        <div class="music-controls">
+            <div class="playBtns flex">
+                <div class="CurrentTime">00:00</div>
+                <div class="Duration">00:00</div>
+                <img id="prevsongBtn" src="svgs/prevsong.svg" alt="">
+                <span class="PPbtn flex"><img id="PlayPauseBtn" src="svgs/play.svg" alt=""></span>
+                <!-- <img class="playBtn" src="svgs/play.svg" alt=""> -->
+                <img id="nextsongBtn" src="svgs/nextsong.svg" alt="">
+            </div>
+            <div class="seekbar">
+                <div class="bar">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+        <div class="volume-bar flex">
+            <div class="volcover flex">
+                <div class="volume-icon">🔊</div>
+                <input type="range" min="0" max="100" value="50" id="volume-slider">
+            </div>
+        </div>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
+
+
+
+<!-- dhandha
+    arjan  prem dillion
+    jatt te jawani 
+    hor ki jawani kuch mangdi mangdi
+    
+-->
